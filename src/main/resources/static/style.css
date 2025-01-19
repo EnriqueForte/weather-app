@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0
+}
+
+#app {
+    margin: 50px auto;
+    max-width: 500px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+input, button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 5px;
+}
+
+#weatherIcon
+
+.fas.fa-sun {
+    color: #FFD700; /* Amarillo para el sol */
+}
+.fas.fa-cloud {
+    color: #B0C4DE; /* Gris para nubes */
+}
+.fas.fa-cloud-showers-heavy {
+    color: #00BFFF; /* Azul claro para lluvia */
+}
+.fas.fa-smog {
+    color: #A9A9A9; /* Gris oscuro para niebla */
+}
+.fas.fa-snowflake {
+    color: #FFFFFF; /* Blanco para nieve */
+}
