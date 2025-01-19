@@ -32,11 +32,11 @@ document.getElementById('getWeather').addEventListener('click', async function (
         // Determinar el ícono según la descripción
         let iconClass = '';
         if (description.includes('Rain')) {
-            iconClass = 'fas fa-cloud-showers-heavy'; // Ícono de lluvia
+            iconClass = 'fas fa-cloud-showers-heavy'; // Ícono de lluvia---
         } else if (description.includes('Cloudy')) {
-            iconClass = 'fas fa-cloud'; // Ícono de nubes
+            iconClass = 'fas fa-cloud'; // Ícono de nubes---
         } else if (description.includes('Sunny') || description.includes('Clear')) {
-            iconClass = 'fas fa-sun'; // Ícono de sol
+            iconClass = 'fas fa-sun'; // Ícono de sol---
         } else {
             iconClass = 'fas fa-smog'; // Ícono por defecto (niebla o desconocido)
         }
