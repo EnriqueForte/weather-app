@@ -34,7 +34,7 @@ Clona este repositorio:
 bash
 Copiar
 Editar
-git clone https://github.com/tuusuario/weather-app.git
+git clone https://github.com/EnriqueForte/weather-app.git
 cd weather-app
 Configura las dependencias con Maven:
 bash
